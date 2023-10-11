@@ -33,27 +33,27 @@ HttpCode 상으로 이미 뜻을 알겠지만, 왜?! 발생했는 지를 알아�
 
 브라우저의 쿠키와 세션을 제거한 후 다음과 같이 재인증을 진행합니다.
 
-![img.png](img.png)
+<kbd>![img.png](img.png)</kbd>
 
 아래 Organization access 는 `V` 표시로 전부 권환이 있는 상태입니다.  
 만약 권한이 없다면 다음과 같이 OAuth 진행 중 신규대상의 권한을 묻습니다.
 
-![img_1.png](img_1.png)
+<kbd>![img_1.png](img_1.png)</kbd>
 
 물론 이때 권한을 부여하지 않으면 다음과 같이 `X` 표시로 403 대상이 됩니다.
 
 ## 2. 개인 Settings 에서 설정합니다.
 
-![img_2.png](img_2.png)
+<kbd>![img_2.png](img_2.png)</kbd>
 
 만약 `Grant` 표시가 생성되지 않는다면 다음 탭으로 개인 Setting 화면에 접속합니다.
 
-![img_3.png](img_3.png)
+<kbd>![img_3.png](img_3.png)</kbd>
 
 그 후 `Integration > Applications > Authorized OAuth Apps` 순서대로 접근합니다.
 (URI 상으로는 https://github.com/settings/applications 입니다.)
 
-![img_4.png](img_4.png)
+<kbd>![img_4.png](img_4.png)</kbd>
 
 각 항목별로 클릭시 OAuth 와 같이 `Grant` 를 적용할 수 있습니다.
 또는 우측 더보기 `...` 를 클락하여 권한 자체를 삭제하고 OAuth 인증시 `Grant` 단계를 재수행하게 합니다.
@@ -63,11 +63,11 @@ HttpCode 상으로 이미 뜻을 알겠지만, 왜?! 발생했는 지를 알아�
 만약 그럼에도 `X` 표시로 남았다면, Organization 의 Restrict 를 확인해야합니다.  
 이는 각 Organization Setting 에 접속한 후 다음 탭을 선택합니다.
 
-![img_5.png](img_5.png)
+<kbd>![img_5.png](img_5.png)</kbd>
 
 해당 탭은 Organization 별로 주어진 OAuth 제약입니다.
 
-![img_6.png](img_6.png)
+<kbd>![img_6.png](img_6.png)</kbd>
 
 만약 위과 같이 Restrict 가 설정되어 있다면 개별 Restrict 를 수정하거나 전체를 삭제하여 허용할 수 있습니다.
 
